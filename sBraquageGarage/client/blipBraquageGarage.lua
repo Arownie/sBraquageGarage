@@ -1,0 +1,10 @@
+local blip = AddBlipForCoord(255.2, -1339.01, 32.93)
+
+SetBlipSprite(blip, 186)
+SetBlipDisplay(blip, 4)
+SetBlipScale(blip, 0.8)
+SetBlipColour(blip, 59)
+SetBlipAsShortRange(blip, true)
+BeginTextCommandSetBlipName("STRING")
+AddTextComponentString("Braquage De Garage")
+EndTextCommandSetBlipName(blip)
